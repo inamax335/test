@@ -1,0 +1,116 @@
+@import "bourbon"
+@import "vars.sass"
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+	height: 2000px
+a:focus
+	outline: none
+.hidden
+	display: none
+header
+	height: 770px
+	background: url(/img/bg/hd_bg.jpg)
+	background-size: cover
+	position: relative
+	overflow: hidden
+	&:before
+		content: ""
+		position: absolute
+		width: 100%
+		height: 100%
+		background: url(/img/bg/pattern.png)
+.top_menu
+	position: absolute
+	width: 100%
+	top: 0
+	background: #fff
+	box-shadow: 0px 0px 3px #333
+.top_menu_nav
+	overflow: hidden
+	min-height: 65px
+	ul 
+		margin: 0
+		padding: 0
+		list-style-type: none
+		margin-top: 12px
+		float: right
+		li
+		 float: left
+		 margin: 0 5px
+		 a 
+		 	display: block
+		 	color: #fff
+		 	padding: 10px 20px
+		 	font-family: "Roboto_Mono", sans-serif
+		 	transition: all .3s ease-out
+		 	text-transform: uppercase
+		 	border-radius: 25px
+		 	font-size: em(14px)
+		 	color: #337ab7
+		 	&:hover,&:active,&:focus
+		 		text-decoration: none
+		 		background: rgba(61,61,61,0.70);
+		 		color: #fff
+		 		text-shadow: 1px 1px 3px #333;
+.header_box
+	margin-top: 300px
+	text-align: center
+	h1
+		color: #3d3d3d
+		font-family: "Poiret_One", sans-serif
+		text-transform: uppercase
+		z-index: 3
+		text-shadow: 1px 1px 3px #fff
+		font-size: em(55px)
+		margin: 0
+	p
+		margin: 0
+		font-size: em(25px)
+		color: #CE1818
+	a
+		margin-top: 80px
+	span
+		font-family: "Euphoria_Script", serif
+.btn 
+	display: inline-block
+	padding: 10px 60px
+	text-align: center
+	background: #5FE430
+	color: #fff
+	border-radius: 25px
+	text-transform: uppercase
+	font-weight: bold
+	opacity: .8
+	transition: opacity .2s 
+	&:hover,:active,:focus
+		text-decoration: none
+		color: #fff
+		opacity: 1
+.logo_wrap
+	line-height: 1.1
+	overflow: hidden
+	background: #fff
+	padding-left: 30px
+	a
+		font-size: em(24px)
+		padding-top: 22px
+		display: inline-block
+		position: relative
+		padding-left: 62px
+		min-height: 65px
+		font-family: "Rancho", sans-serif
+		&:hover,&:focus
+			text-decoration: none
+			color: #337ab7
+		span
+				color: #EF8555
+		img
+			position: absolute
+			top: 0
+			left: 0
